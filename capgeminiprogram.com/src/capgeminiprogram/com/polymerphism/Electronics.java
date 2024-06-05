@@ -1,4 +1,4 @@
-package polymerphism;
+package capgeminiprogram.com.polymerphism;
 
 public class Electronics {
 	private int bettery;
@@ -24,4 +24,9 @@ public class Electronics {
 	public void setWireless(boolean wireless) {
 		this.wireless = wireless;
 	}
+	@Override
+	public String toString() {
+		return "Electronics [bettery=" + bettery + ", wireless=" + wireless + "]";
+	}
+	
 }

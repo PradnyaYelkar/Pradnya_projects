@@ -1,4 +1,4 @@
-package polymerphism;
+package capgeminiprogram.com.polymerphism;
 
 public class MainProducts {
 	public static void main(String args[]) {
@@ -13,6 +13,9 @@ public class MainProducts {
 		Foods foods =new Foods();
 		foods.setExpiryDate("04-12-2025");
 		foods.setVeg(false);
-		
+		System.out.println(products);
+		System.out.println(foods);
+		System.out.println(electronics);
 	}
+	
 }

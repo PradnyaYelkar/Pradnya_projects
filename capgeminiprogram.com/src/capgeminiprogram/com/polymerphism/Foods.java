@@ -1,4 +1,4 @@
-package polymerphism;
+package capgeminiprogram.com.polymerphism;
 
 public class Foods {
 		private String ExpiryDate;
@@ -23,6 +23,10 @@ public class Foods {
 		}
 		public void setVeg(boolean veg) {
 			this.veg = veg;
+		}
+		@Override
+		public String toString() {
+			return "Foods [ExpiryDate=" + ExpiryDate + ", veg=" + veg + "]";
 		}
 		
 		

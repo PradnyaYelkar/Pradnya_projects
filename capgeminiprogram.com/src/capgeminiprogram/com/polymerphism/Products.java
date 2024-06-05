@@ -1,4 +1,4 @@
-package polymerphism;
+package capgeminiprogram.com.polymerphism;
 
 public class Products {
 	private String price;
@@ -23,6 +23,10 @@ public class Products {
 	}
 	public void setBrand(String brand) {
 		this.brand = brand;
+	}
+	@Override
+	public String toString() {
+		return "Products [price=" + price + ", brand=" + brand + "]";
 	}
 	
 	
